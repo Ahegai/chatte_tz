@@ -1,0 +1,35 @@
+@import 'normalize';
+
+html {
+  background: #181818;
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  color: white;
+}
+
+#app {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 8px 0;
+}
